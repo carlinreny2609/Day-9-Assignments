@@ -1,0 +1,21 @@
+package selenium;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Mappractise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashMap<Integer, String>map =new HashMap<Integer, String>();
+		
+		map.put(1, "Queen");
+		map.put(2, "Minister");
+		map.put(3, "King");
+		
+		System.out.println(map);
+
+	}
+
+}
